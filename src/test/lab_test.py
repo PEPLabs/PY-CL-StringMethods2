@@ -1,5 +1,5 @@
 import unittest
-from ..main.lab import (
+from src.main.lab import (
     replace_characters,
     split_string,
     join_strings,
