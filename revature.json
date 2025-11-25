@@ -1,0 +1,45 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_replace_characters",
+          "label": "Verify replace_characters replaces substrings correctly",
+          "description": "Ensures replace_characters returns the string with all occurrences of the target substring replaced by the new substring."
+        },
+        {
+          "methodName": "test_split_string",
+          "label": "Verify split_string splits by delimiter",
+          "description": "Checks that split_string correctly splits input strings using the specified delimiter."
+        },
+        {
+          "methodName": "test_join_strings",
+          "label": "Verify join_strings joins elements with delimiter",
+          "description": "Ensures join_strings concatenates list elements using the provided separator."
+        },
+        {
+          "methodName": "test_count_occurrences",
+          "label": "Verify count_occurrences counts substring occurrences",
+          "description": "Checks that count_occurrences correctly counts both single-character and multi-character substrings."
+        },
+        {
+          "methodName": "test_find_char_index",
+          "label": "Verify find_char_index returns index of substring",
+          "description": "Ensures find_char_index returns the index of the first occurrence of the substring, or -1 if not found."
+        },
+        {
+          "methodName": "test_starts_with_substring",
+          "label": "Verify starts_with_substring matches prefix",
+          "description": "Checks that starts_with_substring returns True when the string begins with the given substring and False otherwise."
+        },
+        {
+          "methodName": "test_ends_with_substring",
+          "label": "Verify ends_with_substring matches suffix",
+          "description": "Ensures ends_with_substring returns True only when the string ends with the provided substring."
+        }
+      ]
+    }
+  ]
+}
